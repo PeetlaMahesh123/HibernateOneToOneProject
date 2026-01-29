@@ -1,0 +1,32 @@
+<hibernate-configuration>
+
+<session-factory>
+
+<!-- Database Connection Settings -->
+
+<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_db</property>
+
+<property name="hibernate.connection.username">root</property>
+
+<property name="hibernate.connection.password"></property>
+
+
+<!-- Hibernate Settings -->
+
+<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+<property name="hibernate.show_sql">true</property>
+
+<property name="hibernate.format_sql">true</property>
+
+ <property name="hibernate.hbm2ddl.auto">update</property>
+
+<!-- Entity mappings -->
+<mapping class="com.OnetoMany.HibernateOneToMany.Entity.Student"/>
+<mapping class="com.OnetoMany.HibernateOneToMany.Entity.Address"/>
+
+</session-factory>
+
+</hibernate-configuration>
