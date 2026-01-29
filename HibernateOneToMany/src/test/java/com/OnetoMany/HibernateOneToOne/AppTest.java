@@ -1,4 +1,4 @@
-package com.OnetoMany.HibernateOneToMany;
+package com.OnetoMany.HibernateOneToOne;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
