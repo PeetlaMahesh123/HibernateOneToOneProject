@@ -1,4 +1,4 @@
-package com.OnetoMany.HibernateOneToMany;
+package com.OnetoMany.HibernateOneToOne;
 
 /**
  * Hello world!

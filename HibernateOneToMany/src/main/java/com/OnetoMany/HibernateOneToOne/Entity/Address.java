@@ -1,4 +1,4 @@
-package com.OnetoMany.HibernateOneToMany.Entity;
+package com.OnetoMany.HibernateOneToOne.Entity;
 
 
 import jakarta.persistence.*;

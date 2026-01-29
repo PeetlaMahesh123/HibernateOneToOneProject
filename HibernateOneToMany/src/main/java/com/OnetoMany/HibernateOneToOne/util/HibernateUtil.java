@@ -1,4 +1,4 @@
-package com.OnetoMany.HibernateOneToMany.util;
+package com.OnetoMany.HibernateOneToOne.util;
 
 
 import org.hibernate.SessionFactory;

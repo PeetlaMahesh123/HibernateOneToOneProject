@@ -1,12 +1,12 @@
-package com.OnetoMany.HibernateOneToMany.main;
+package com.OnetoMany.HibernateOneToOne.main;
 
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.OnetoMany.HibernateOneToMany.Entity.Address;
-import com.OnetoMany.HibernateOneToMany.Entity.Student;
-import com.OnetoMany.HibernateOneToMany.util.HibernateUtil;
+import com.OnetoMany.HibernateOneToOne.Entity.Address;
+import com.OnetoMany.HibernateOneToOne.Entity.Student;
+import com.OnetoMany.HibernateOneToOne.util.HibernateUtil;
 
 
 

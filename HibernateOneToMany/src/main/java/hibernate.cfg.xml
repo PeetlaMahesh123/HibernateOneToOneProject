@@ -24,8 +24,8 @@
  <property name="hibernate.hbm2ddl.auto">update</property>
 
 <!-- Entity mappings -->
-<mapping class="com.OnetoMany.HibernateOneToMany.Entity.Student"/>
-<mapping class="com.OnetoMany.HibernateOneToMany.Entity.Address"/>
+<mapping class="com.OnetoMany.HibernateOneToOne.Entity.Student"/>
+<mapping class="com.OnetoMany.HibernateOneToOne.Entity.Address"/>
 
 </session-factory>
 
